@@ -4,6 +4,6 @@ USE estadistics;
 
 CREATE TABLE registre(
     id INT AUTO_INCREMENT PRIMARY KEY,
-    ip VARCHAR2(500),
+    ip VARCHAR(500),
     data TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ;)
