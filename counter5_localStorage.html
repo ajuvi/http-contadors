@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter 5</title>
+</head>
+<body>  
+    <div id="main">
+    </div>
+</body>
+</html>
+
+<script>
+    var contador = 0;
+    if(localStorage.getItem("contador")){
+        contador=localStorage.getItem("contador");
+    }
+
+    contador++;
+    document.getElementById("main").innerText = "" + contador;
+    localStorage.setItem("contador", contador);
+    //localStorage.clear();
+
+</script>
