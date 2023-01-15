@@ -2,7 +2,7 @@
 
 Diferents maneres de consevar l'estat de les connexions HTTP.
 
-- Coockies
+- Cookies
 - Sessions
 - Fitxers
 - Bases de dades
